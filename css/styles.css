@@ -1,0 +1,66 @@
+.code1 {
+  background-image :url("../assets/backgrounds/h_img.jpg");
+  background-repeat: no-repeat;
+}
+.content {
+  color: aliceblue;
+  text-align: center;
+
+
+}
+.row2 {color: darkslateblue;
+  text-align: center;
+
+}
+.code2 {
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  padding: 10px,10px;
+}
+.content2 {text-align: center;
+  color :rgb(232, 230, 240);
+
+
+}
+.heading {
+  text-align: center;
+  color: black;
+
+}
+.design {
+  color: blueviolet;
+  align-content: center;
+  font-style: italic;
+  font-family: 'Courier New';
+}
+.row3 {
+  background-color: darkgray;
+  font-family: 'Lucida Sans';
+}
+form{
+  background-image: url()
+}
+.img{
+  width: 100px;
+  height: 100px;
+}
+.form{
+  width: 50px;
+  height: 100px;
+}
+#p1,#p2,#p3 {
+  cursor: pointer;
+  display: none;
+}
+#contact-form {
+  text-align: center;
+  background-image: url(/assets/backgrounds/c_image.jpg);
+  
+}
+.about{
+  
+  font-style: italic;
+  font-family: 'Segoe UI';
+  color: blue;
+
+}
