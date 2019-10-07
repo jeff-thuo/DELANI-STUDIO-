@@ -28,13 +28,13 @@
 
 }
 .design {
-  color: blueviolet;
+  color: gold;
   align-content: center;
   font-style: italic;
   font-family: 'Courier New';
 }
 .row3 {
-  background-color: darkgray;
+  background-color:gold;
   font-family: 'Lucida Sans';
 }
 form{
@@ -49,12 +49,17 @@ form{
   height: 100px;
 }
 #p1,#p2,#p3 {
-  cursor: pointer;
-  display: none;
+    display: none;
+    font-style: italic;
+    font-family: 'Segoe UI';
+    color: 
 }
 #contact-form {
   text-align: center;
   background-image: url(/assets/backgrounds/c_image.jpg);
+  font-style: oblique;
+  font-family: 'Lucida Sans';
+
   
 }
 .about{
