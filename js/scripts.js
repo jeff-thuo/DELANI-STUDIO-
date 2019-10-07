@@ -16,8 +16,8 @@ $(document).ready(function(){ // start of document get_ready function
     $("#p3").toggle();
   });
 
-$(".submit").click(function (event) {
-  event.preventDefault();
+$("#submit").click(function () {
+  //event.preventDefault();
   var name = $("#contact-name").val();
   var email = $("#contact-email").val();
   if ($("#contact-name").val() == "") {
@@ -34,50 +34,47 @@ $(".submit").click(function (event) {
   }
 });
 
+$('#work1').mouseenter(function () {
+  $('.work-heading').filter('#work1-title').show("slow");
+}).mouseleave(function () {
+  $('#work1-title').hide("fast");
+});
+$('#work2').mouseenter(function () {
+  $('.work-heading').filter('#work2-title').show("slow");
+}).mouseleave(function () {
+  $('#work2-title').hide("fast");
+});
+$('#work3').mouseenter(function () {
+  $('.work-heading').filter('#work3-title').show("slow");
+}).mouseleave(function () {
+  $('#work3-title').hide("fast");
+});
+$('#work4').mouseenter(function () {
+  $('.work-heading').filter('#work4-title').show("slow");
+}).mouseleave(function () {
+  $('#work4-title').hide("fast");
+});
+$('#work5').mouseenter(function () {
+  $('.work-heading').filter('#work5-title').show("slow");
+}).mouseleave(function () {
+  $('#work5-title').hide("fast");
+});
+$('#work6').mouseenter(function () {
+  $('.work-heading').filter('#work6-title').show("slow");
+}).mouseleave(function () {
+  $('#work6-title').hide("fast");
+});
+$('#work7').mouseenter(function () {
+  $('.work-heading').filter('#work7-title').show("slow");
+}).mouseleave(function () {
+  $('#work7-title').hide("fast");
+});
+$('#work8').mouseenter(function(){
+$('.work-heading').filter('#work8-title').show("slow");
+}).mouseleave(function(){
+$('#work8-title').hide("fast");
+});
 
-
-$("#photo1").hover(function () {
-  $("#photo1").stop().animate({ opacity: "0.3" }, "0.5");
-  $("#para1").toogle()
-
-}, function () {
-  $("#photo1").stop().animate({ opacity: "1" }, "1");
-});
-$("#photo2").hover(function () {
-  $("#photo2").stop().animate({ opacity: "0.3" }, "0.5");
-}, function () {
-  $("#photo2").stop().animate({ opacity: "1" }, "1");
-});
-$("#photo3").hover(function () {
-  $("#photo3").stop().animate({ opacity: "0.3" }, "0.5");
-}, function () {
-  $("#photo3").stop().animate({ opacity: "1" }, "1");
-});
-$("#photo4").hover(function () {
-  $("#photo4").stop().animate({ opacity: "0.3" }, "0.5");
-}, function () {
-  $("#photo4").stop().animate({ opacity: "1" }, "1");
-});
-$("#photo5").hover(function () {
-  $("#photo5").stop().animate({ opacity: "0.3" }, "0.5");
-}, function () {
-  $("#photo5").stop().animate({ opacity: "1" }, "1");
-});
-$("#photo6").hover(function () {
-  $("#photo6").stop().animate({ opacity: "0.3" }, "0.5");
-}, function () {
-  $("#photo6").stop().animate({ opacity: "1" }, "1");
-});
-$("#photo7").hover(function () {
-  $("#photo7").stop().animate({ opacity: "0.3" }, "0.5");
-}, function () {
-  $("#photo7").stop().animate({ opacity: "1" }, "1");
-});
-$("#photo8").hover(function () {
-  $("#photo8").stop().animate({ opacity: "0.3" }, "0.5");
-}, function () {
-  $("#photo8").stop().animate({ opacity: "1" }, "1");
-});
 
 
 });//end of document_get_ready functions

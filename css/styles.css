@@ -64,6 +64,21 @@
   color: blue
 
 }
-
-
+.work-heading {
+  display: none;
+  color:white;
+  font-weight: bold;
+  z-index: 1;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.portfolio{
+  float: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
 
